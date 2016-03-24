@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120466BC1CA3F726009CEF7C /* NSObject+GNUStepAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 120466BB1CA3F726009CEF7C /* NSObject+GNUStepAddons.m */; };
+		120466BF1CA3F76B009CEF7C /* FRTSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120466BE1CA3F76B009CEF7C /* FRTSimpleViewController.m */; };
+		120466C11CA3F7A7009CEF7C /* FRTSimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 120466C01CA3F7A7009CEF7C /* FRTSimpleViewController.xib */; };
+		120466C51CA3F98D009CEF7C /* FRTMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = 120466C41CA3F98D009CEF7C /* FRTMoney.m */; };
+		120466C81CA3FAFA009CEF7C /* FRTBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = 120466C71CA3FAFA009CEF7C /* FRTBroker.m */; };
+		120466CB1CA3FC4E009CEF7C /* FRTWallet.m in Sources */ = {isa = PBXBuildFile; fileRef = 120466CA1CA3FC4E009CEF7C /* FRTWallet.m */; };
+		120466CE1CA44C24009CEF7C /* FRTWalletTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120466CD1CA44C24009CEF7C /* FRTWalletTableViewController.m */; };
+		120466D41CA45024009CEF7C /* FRTNetworkTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 120466D31CA45024009CEF7C /* FRTNetworkTest.m */; };
+		120466D81CA450A5009CEF7C /* FRTFakeNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 120466D71CA450A5009CEF7C /* FRTFakeNotificationCenter.m */; };
+		120466DA1CA450FA009CEF7C /* FRTNSNotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 120466D91CA450FA009CEF7C /* FRTNSNotificationCenterTests.m */; };
+		120466DD1CA451DA009CEF7C /* FRTControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 120466DC1CA451DA009CEF7C /* FRTControllerTest.m */; };
+		120466E01CA455C5009CEF7C /* FRTMoneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 120466DF1CA455C5009CEF7C /* FRTMoneyTests.m */; };
+		120466E21CA456B8009CEF7C /* FRTBrokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 120466E11CA456B8009CEF7C /* FRTBrokerTests.m */; };
+		120466E41CA45759009CEF7C /* FRTWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 120466E31CA45759009CEF7C /* FRTWalletTests.m */; };
 		12FCA5B61C9F1B4A00A766DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FCA5B51C9F1B4A00A766DA /* main.m */; };
 		12FCA5B91C9F1B4A00A766DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FCA5B81C9F1B4A00A766DA /* AppDelegate.m */; };
 		12FCA5BC1C9F1B4A00A766DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FCA5BB1C9F1B4A00A766DA /* ViewController.m */; };
@@ -27,6 +41,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		120466BA1CA3F726009CEF7C /* NSObject+GNUStepAddons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GNUStepAddons.h"; sourceTree = "<group>"; };
+		120466BB1CA3F726009CEF7C /* NSObject+GNUStepAddons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GNUStepAddons.m"; sourceTree = "<group>"; };
+		120466BD1CA3F76B009CEF7C /* FRTSimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTSimpleViewController.h; sourceTree = "<group>"; };
+		120466BE1CA3F76B009CEF7C /* FRTSimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTSimpleViewController.m; sourceTree = "<group>"; };
+		120466C01CA3F7A7009CEF7C /* FRTSimpleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FRTSimpleViewController.xib; sourceTree = "<group>"; };
+		120466C31CA3F98D009CEF7C /* FRTMoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTMoney.h; sourceTree = "<group>"; };
+		120466C41CA3F98D009CEF7C /* FRTMoney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTMoney.m; sourceTree = "<group>"; };
+		120466C61CA3FAFA009CEF7C /* FRTBroker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTBroker.h; sourceTree = "<group>"; };
+		120466C71CA3FAFA009CEF7C /* FRTBroker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTBroker.m; sourceTree = "<group>"; };
+		120466C91CA3FC4E009CEF7C /* FRTWallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTWallet.h; sourceTree = "<group>"; };
+		120466CA1CA3FC4E009CEF7C /* FRTWallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTWallet.m; sourceTree = "<group>"; };
+		120466CC1CA44C24009CEF7C /* FRTWalletTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTWalletTableViewController.h; sourceTree = "<group>"; };
+		120466CD1CA44C24009CEF7C /* FRTWalletTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTWalletTableViewController.m; sourceTree = "<group>"; };
+		120466D31CA45024009CEF7C /* FRTNetworkTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTNetworkTest.m; sourceTree = "<group>"; };
+		120466D61CA450A5009CEF7C /* FRTFakeNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTFakeNotificationCenter.h; sourceTree = "<group>"; };
+		120466D71CA450A5009CEF7C /* FRTFakeNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTFakeNotificationCenter.m; sourceTree = "<group>"; };
+		120466D91CA450FA009CEF7C /* FRTNSNotificationCenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTNSNotificationCenterTests.m; sourceTree = "<group>"; };
+		120466DC1CA451DA009CEF7C /* FRTControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTControllerTest.m; sourceTree = "<group>"; };
+		120466DF1CA455C5009CEF7C /* FRTMoneyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTMoneyTests.m; sourceTree = "<group>"; };
+		120466E11CA456B8009CEF7C /* FRTBrokerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTBrokerTests.m; sourceTree = "<group>"; };
+		120466E31CA45759009CEF7C /* FRTWalletTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTWalletTests.m; sourceTree = "<group>"; };
 		12FCA5B11C9F1B4A00A766DA /* Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FCA5B51C9F1B4A00A766DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		12FCA5B71C9F1B4A00A766DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +95,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		120466B91CA3F718009CEF7C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				120466BA1CA3F726009CEF7C /* NSObject+GNUStepAddons.h */,
+				120466BB1CA3F726009CEF7C /* NSObject+GNUStepAddons.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		120466C21CA3F8E0009CEF7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				120466C31CA3F98D009CEF7C /* FRTMoney.h */,
+				120466C41CA3F98D009CEF7C /* FRTMoney.m */,
+				120466C61CA3FAFA009CEF7C /* FRTBroker.h */,
+				120466C71CA3FAFA009CEF7C /* FRTBroker.m */,
+				120466C91CA3FC4E009CEF7C /* FRTWallet.h */,
+				120466CA1CA3FC4E009CEF7C /* FRTWallet.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		120466CF1CA44F48009CEF7C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				120466D31CA45024009CEF7C /* FRTNetworkTest.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		120466D51CA4506C009CEF7C /* Singeltons */ = {
+			isa = PBXGroup;
+			children = (
+				120466D61CA450A5009CEF7C /* FRTFakeNotificationCenter.h */,
+				120466D71CA450A5009CEF7C /* FRTFakeNotificationCenter.m */,
+				120466D91CA450FA009CEF7C /* FRTNSNotificationCenterTests.m */,
+			);
+			name = Singeltons;
+			sourceTree = "<group>";
+		};
+		120466DB1CA451B0009CEF7C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				120466DC1CA451DA009CEF7C /* FRTControllerTest.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		120466DE1CA45566009CEF7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				120466DF1CA455C5009CEF7C /* FRTMoneyTests.m */,
+				120466E11CA456B8009CEF7C /* FRTBrokerTests.m */,
+				120466E31CA45759009CEF7C /* FRTWalletTests.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		12FCA5A81C9F1B4A00A766DA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +174,9 @@
 		12FCA5B31C9F1B4A00A766DA /* Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				120466C21CA3F8E0009CEF7C /* Models */,
+				120466B91CA3F718009CEF7C /* Categories */,
+				12FCA5D91C9F1B6500A766DA /* Controllers */,
 				12FCA5B71C9F1B4A00A766DA /* AppDelegate.h */,
 				12FCA5B81C9F1B4A00A766DA /* AppDelegate.m */,
 				12FCA5BA1C9F1B4A00A766DA /* ViewController.h */,
@@ -105,10 +201,27 @@
 		12FCA5CD1C9F1B4A00A766DA /* WalletTests */ = {
 			isa = PBXGroup;
 			children = (
+				120466DE1CA45566009CEF7C /* Models */,
+				120466DB1CA451B0009CEF7C /* Controller */,
+				120466D51CA4506C009CEF7C /* Singeltons */,
+				120466CF1CA44F48009CEF7C /* Network */,
 				12FCA5CE1C9F1B4A00A766DA /* WalletTests.m */,
 				12FCA5D01C9F1B4A00A766DA /* Info.plist */,
 			);
 			path = WalletTests;
+			sourceTree = "<group>";
+		};
+		12FCA5D91C9F1B6500A766DA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				120466BD1CA3F76B009CEF7C /* FRTSimpleViewController.h */,
+				120466BE1CA3F76B009CEF7C /* FRTSimpleViewController.m */,
+				120466C01CA3F7A7009CEF7C /* FRTSimpleViewController.xib */,
+				120466CC1CA44C24009CEF7C /* FRTWalletTableViewController.h */,
+				120466CD1CA44C24009CEF7C /* FRTWalletTableViewController.m */,
+			);
+			name = Controllers;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +306,7 @@
 			files = (
 				12FCA5C41C9F1B4A00A766DA /* LaunchScreen.storyboard in Resources */,
 				12FCA5C11C9F1B4A00A766DA /* Assets.xcassets in Resources */,
+				120466C11CA3F7A7009CEF7C /* FRTSimpleViewController.xib in Resources */,
 				12FCA5BF1C9F1B4A00A766DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +326,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				12FCA5BC1C9F1B4A00A766DA /* ViewController.m in Sources */,
+				120466BC1CA3F726009CEF7C /* NSObject+GNUStepAddons.m in Sources */,
 				12FCA5B91C9F1B4A00A766DA /* AppDelegate.m in Sources */,
+				120466CB1CA3FC4E009CEF7C /* FRTWallet.m in Sources */,
+				120466CE1CA44C24009CEF7C /* FRTWalletTableViewController.m in Sources */,
+				120466C51CA3F98D009CEF7C /* FRTMoney.m in Sources */,
+				120466BF1CA3F76B009CEF7C /* FRTSimpleViewController.m in Sources */,
 				12FCA5B61C9F1B4A00A766DA /* main.m in Sources */,
+				120466C81CA3FAFA009CEF7C /* FRTBroker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +341,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				120466D81CA450A5009CEF7C /* FRTFakeNotificationCenter.m in Sources */,
+				120466DA1CA450FA009CEF7C /* FRTNSNotificationCenterTests.m in Sources */,
 				12FCA5CF1C9F1B4A00A766DA /* WalletTests.m in Sources */,
+				120466E41CA45759009CEF7C /* FRTWalletTests.m in Sources */,
+				120466DD1CA451DA009CEF7C /* FRTControllerTest.m in Sources */,
+				120466D41CA45024009CEF7C /* FRTNetworkTest.m in Sources */,
+				120466E01CA455C5009CEF7C /* FRTMoneyTests.m in Sources */,
+				120466E21CA456B8009CEF7C /* FRTBrokerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +529,7 @@
 				12FCA5D51C9F1B4A00A766DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12FCA5D61C9F1B4A00A766DA /* Build configuration list for PBXNativeTarget "WalletTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +538,7 @@
 				12FCA5D81C9F1B4A00A766DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

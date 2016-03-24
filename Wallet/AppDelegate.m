@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "FRTWallet.h"
+#import "FRTWalletTableViewController.h"
+#import "FRTBroker.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,28 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    FRTWallet *wallet = [[FRTWallet alloc] initWithAmount:10 currency:@"EUR"];
+    [wallet addMoney:[FRTMoney euroWithAmount:100]];
+    [wallet addMoney:[FRTMoney euroWithAmount:20]];
+    [wallet addMoney:[FRTMoney euroWithAmount:50]];
+    [wallet addMoney:[FRTMoney dollarWithAmount:10]];
+    [wallet addMoney:[FRTMoney dollarWithAmount:10]];
+    [wallet addMoney:[FRTMoney dollarWithAmount:50]];
+    
+    FRTBroker *broker = [FRTBroker new];
+    [broker addRate: 2 fromCurrency: @"USD" toCurrency: @"EUR"];
+    
+    self.window.rootViewController = [[FRTWalletTableViewController alloc] initWithWallet: wallet broker: broker];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+
+    
+    
+    
+    
     return YES;
 }
 
